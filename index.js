@@ -1,6 +1,8 @@
 let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
 let count = 0
+let increment
+let save
 
 function increment() {
     count += 1
